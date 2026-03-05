@@ -5,6 +5,7 @@ by e0art1h
 - `$$` 可变变量打断数据流
 - 数组回调函数进行间接方法调用隐藏入口
 - 使用$_SESSION缓存Payload
+-
 """
 
 import argparse
@@ -240,3 +241,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
