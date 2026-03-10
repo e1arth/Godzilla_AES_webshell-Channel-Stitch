@@ -121,8 +121,11 @@ fused_score >= 0.95 -> webshell，high，block
 - 模型卡：`docs/MODEL_CARD.zh-CN.md`
 - 评估报告：`docs/EVALUATION_REPORT_TEMPLATE.zh-CN.md`
 
-2026-03-04
 
-Best regards,
+---  
 
-by e0art1h
+## 2026-03-04
+
+### Best regards,
+
+#### by e0art1h
