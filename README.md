@@ -1,7 +1,10 @@
 <h1 align="center">VeilShell</h1>
 
-### Godzilla_AES加密器+采用打断数据流（Data-Flow Break）与动态回调伪装的 WebShell|Qwen2-0.5B-Instruc-webshell微调小模型检测方法与对抗。
-插件是基于哥斯拉底层反射的自定义AES通信加密器，phpwebshell则基于AES + gzdeflate+Data-Flow Break
+### Godzilla_AES加密器+采用打断与动态回调伪装的WebShell以及另一种自定义Stream Wrapper去除eval的webshell|Qwen2-0.5B-Instruc-webshell微调小模型检测方法与对抗。
+插件是基于哥斯拉底层反射的自定义AES通信加密器
+
+bypass_webshell.py基于AES+gzdeflate+Data-Flow Break(不依赖 stream wrapper，兼容低版本PHP)
+bypass_Noeval_Stream Wrapper.py基于AES+自定义Stream wrapper注册+include（ps：部分环境下例如open_basedir严格+禁用stream函数时无法使用）
 
 ```mermaid
 graph LR
